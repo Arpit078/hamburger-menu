@@ -1,0 +1,38 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(202, 144, 236, 0.925);
+}
+button{
+    background-color: rgb(202, 144, 236, 0.925);
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border: none;
+    border-radius: 15px;
+    
+}
+button:hover{
+    border: 2px groove rgb(131, 108, 145);
+    background-color:rgb(202, 144, 236) ;
+    border-radius: 15px;
+}
+#burger{
+    height: 50px;
+    width: 50px;
+}
+ul{
+    position: fixed;
+    background-color: rgb(104, 55, 131);
+    color: aliceblue;
+    height: 100vh;
+   
+    right: 2px;
+    margin-top: -10px;
+    padding-top: 50px;
+}
+
